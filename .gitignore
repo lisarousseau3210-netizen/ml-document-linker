@@ -1,5 +1,13 @@
 
+# Environnement virtuel
+venv/
 .venv/
 __pycache__/
 *.pyc
+
+# Données (seulement le CSV final est poussé vers github)
+data/synthetic/pdfs/
+*.pdf
+
+# Jupyter
 .ipynb_checkpoints/
